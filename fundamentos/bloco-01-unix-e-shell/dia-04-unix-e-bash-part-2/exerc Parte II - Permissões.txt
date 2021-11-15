@@ -1,0 +1,66 @@
+﻿
+# 1 Navegue até a pasta unix_tests ;
+cd unix_tests/
+
+# 2 Rode o comando ls -l e veja quais as permissões dos arquivos;
+ls -l
+total 36
+-rw-rw-r-- 1 andressa andressa 1943 nov 15 10:53 bunch_of_things.txt
+-rw-rw-r-- 1 andressa andressa 1842 nov 14 20:18 countries.txt
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.pdf
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.tbt
+-rw-rw-r-- 1 andressa andressa 6569 nov 14 21:08 exercicio-part-2.txt
+-rw-rw-r-- 1 andressa andressa  100 nov 15 10:27 phrases2.txt
+-rw-rw-r-- 1 andressa andressa   58 nov 14 20:50 phrases.txt
+-rw-rw-r-- 1 andressa andressa   49 nov 15 10:06 skills2.txt
+-rw-rw-r-- 1 andressa andressa   21 nov 15 10:15 top_skills.txt
+drwxrwxr-x 3 andressa andressa 4096 nov 14 18:49 unix_tests
+
+# 3 Mude a permissão do arquivo bunch_of_things.txt para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando ls -l
+chmod 666 bunch_of_things.txt
+ls -l
+total 36
+-rw-rw-rw- 1 andressa andressa 1943 nov 15 10:53 bunch_of_things.txt
+-rw-rw-r-- 1 andressa andressa 1842 nov 14 20:18 countries.txt
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.pdf
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.tbt
+-rw-rw-r-- 1 andressa andressa 6569 nov 14 21:08 exercicio-part-2.txt
+-rw-rw-r-- 1 andressa andressa  100 nov 15 10:27 phrases2.txt
+-rw-rw-r-- 1 andressa andressa   58 nov 14 20:50 phrases.txt
+-rw-rw-r-- 1 andressa andressa   49 nov 15 10:06 skills2.txt
+-rw-rw-r-- 1 andressa andressa   21 nov 15 10:15 top_skills.txt
+drwxrwxr-x 3 andressa andressa 4096 nov 14 18:49 unix_tests
+
+# 4 Tire a permissão de escrita do arquivo bunch_of_things.txt para todos os usuários, verifique se está correto com o comando ls -l 
+chmod a-w bunch_of_things.txt   
+chmod 444 bunch_of_things.txt
+ls -l
+total 36
+-r--r--r-- 1 andressa andressa 1943 nov 15 10:53 bunch_of_things.txt
+-rw-rw-r-- 1 andressa andressa 1842 nov 14 20:18 countries.txt
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.pdf
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.tbt
+-rw-rw-r-- 1 andressa andressa 6569 nov 14 21:08 exercicio-part-2.txt
+-rw-rw-r-- 1 andressa andressa  100 nov 15 10:27 phrases2.txt
+-rw-rw-r-- 1 andressa andressa   58 nov 14 20:50 phrases.txt
+-rw-rw-r-- 1 andressa andressa   49 nov 15 10:06 skills2.txt
+-rw-rw-r-- 1 andressa andressa   21 nov 15 10:15 top_skills.txt
+drwxrwxr-x 3 andressa andressa 4096 nov 14 18:49 unix_tests
+
+
+
+# 5 Volte à permissão do arquivo bunch_of_things.txt para a listada inicialmente utilizando o comando chmod 644 bunch_of_things.txt .
+chmod 644 bunch_of_things.txt
+ls -l
+total 36
+-rw-r--r-- 1 andressa andressa 1943 nov 15 10:53 bunch_of_things.txt
+-rw-rw-r-- 1 andressa andressa 1842 nov 14 20:18 countries.txt
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.pdf
+-rw-rw-r-- 1 andressa andressa    0 nov 14 20:57 empty.tbt
+-rw-rw-r-- 1 andressa andressa 6569 nov 14 21:08 exercicio-part-2.txt
+-rw-rw-r-- 1 andressa andressa  100 nov 15 10:27 phrases2.txt
+-rw-rw-r-- 1 andressa andressa   58 nov 14 20:50 phrases.txt
+-rw-rw-r-- 1 andressa andressa   49 nov 15 10:06 skills2.txt
+-rw-rw-r-- 1 andressa andressa   21 nov 15 10:15 top_skills.txt
+drwxrwxr-x 3 andressa andressa 4096 nov 14 18:49 unix_tests
+
