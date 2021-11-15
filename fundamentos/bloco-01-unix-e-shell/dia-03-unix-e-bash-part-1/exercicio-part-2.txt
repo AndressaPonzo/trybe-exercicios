@@ -1,0 +1,69 @@
+﻿# 1 Na pasta unix_tests , baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+
+curl -o countries.txt  "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1842  100  1842    0     0   4153      0 --:--:-- --:--:-- --:--:--  4158
+
+# 2 Mostre todo o conteúdo do arquivo countries.txt na tela.
+cat countries.txt
+Afghanistan
+Albania
+...
+Zimbabwe
+
+# 3 Mostre o conteúdo de countries.txt , página por página, até encontrar a Zambia .
+less countries.txt
+
+# 4 Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia .
+grep Zambia countries.txt
+Zambia
+
+# 4 Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia .
+#  less countries.txt comando teclas n para proximo(next) e p para anterior(previous) para navegar 
+less countries.txt
+
+# 5 Busque por Brazil no countries.txt .
+grep Brazil countries.txt
+Brazil
+
+# 6 Busque novamente por brazil , mas agora utilizando o lower case .
+grep brazil countries.txt
+
+cat > phrases.txt
+O ceu e azul                 
+As arvores tem folhas verde
+A terra e marron
+
+# 7 Busque pelas frases que não contenham a palavra fox .
+grep -v "fox" phrases.txt
+O ceu e azul
+As arvores tem folhas verde
+A terra e marron
+
+# 8 Conte o número de palavras do arquivo phrases.txt .
+wc -w phrases.txt 
+13 phrases.txt
+
+# 9 Conte o número de linhas do arquivo phrases.txt .
+wc -l phrases.txt 
+3 phrases.txt
+
+# 10 Crie os arquivos empty.tbt e empty.pdf .
+touch empty.tbt empty.pdf
+
+# 11 Liste todos os arquivos do diretório unix_tests .
+ls -a
+.  ..  countries.txt  empty.pdf  empty.tbt  phrases.txt  unix_tests
+
+# 12 Liste todos os arquivos que terminem com txt .
+ls -a *.txt
+countries.txt  phrases.txt
+
+# 13 Liste todos os arquivos que terminem com tbt ou txt .
+ls -a *.{tbt,txt}
+countries.txt  empty.tbt  phrases.txt
+
+# 14 Acesse o manual do comando ls .
+man ls
+
