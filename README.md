@@ -6,11 +6,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1::heavy_check_mark: [Unix, Bash e Shell Script](https://github.com/AndressaPonzo/trybe-exercicios-/tree/master/fundamentos/bloco-01-unix-e-shell)
-- [ ] 1.3 - Fundamentos do Desenvolvimento Web
-- [ ] 1.3 - Introdução - Unix & Shell
-- [ ] 1.3 - Unix & Bash - Parte 1
-- [ ] 1.4 - Unix & Bash - Parte 2
+##### Bloco 1:[Unix, Bash e Shell Script](https://github.com/AndressaPonzo/trybe-exercicios-/tree/master/fundamentos/bloco-01-unix-e-shell) :heavy_check_mark: 
+- [X] 1.3 - Fundamentos do Desenvolvimento Web
+- [X] 1.3 - Introdução - Unix & Shell
+- [X] 1.3 - Unix & Bash - Parte 1
+- [X] 1.4 - Unix & Bash - Parte 2
 
 ##### Bloco 2: [Git, GitHub e Internet](https://github.com/AndressaPonzo/trybe-exercicios-/tree/master/01-fundamentos/bloco-02-git-github-e-internet)
 - [ ] 2.1 - Git & GitHub  - O que é e para que serve
