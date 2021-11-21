@@ -12,13 +12,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 1.3 - Unix & Bash - Parte 1
 - [X] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet](https://github.com/AndressaPonzo/trybe-exercicios-/tree/master/01-fundamentos/bloco-02-git-github-e-internet)
-- [ ] 2.1 - Git & GitHub  - O que é e para que serve
-- [ ] 2.2 - Git & GitHub - Entendendo os comandos
-- [ ] 2.3 - Internet - Entendendo como ela funciona
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/AndressaPonzo/trybe-exercicios-/tree/master/01-fundamentos/bloco-02-git-github-e-internet) :heavy_check_mark: 
+- [x] 2.1 - Git & GitHub  - O que é e para que serve
+- [x] 2.2 - Git & GitHub - Entendendo os comandos
+- [x] 2.3 - Internet - Entendendo como ela funciona
 
 ##### Bloco 3: [Introdução à HTML e CSS](https://github.com/AndressaPonzo/trybe-exercicios-/tree/master/01-fundamentos/bloco-03-introducao-a-html-e-css)
-- [ ] 3.1 - Introdução - HTML & CSS
+- [X] 3.1 - Introdução - HTML & CSS
 - [ ] 3.1 - HTML & CSS - Estruturas de página
 - [ ] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [ ] 3.3 - HTML & CSS - Seletores e posicionamento
