@@ -40,7 +40,7 @@ Clear
 
 # 14 Mostre na tela as 5 primeiras skills do arquivo skills.txt .
 cat skills.txt | head -5
-nternet
+Internet
 Unix
 Bash
 HTML
